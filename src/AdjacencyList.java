@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AdjacencyList {
-
     private ArrayList<String> vertices;
     private ArrayList<ArrayList<Node>> graph; //a list of each node (with each node having a list of what it connects to)
 
@@ -54,4 +53,5 @@ public class AdjacencyList {
     public ArrayList<ArrayList<Node>> getGraph() {
         return graph;
     }
+}
 }
